@@ -1,0 +1,24 @@
+﻿<Window x:Class="Demo2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Demo2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="500" Width="400"
+        WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"></RowDefinition>
+            <RowDefinition Height="5*"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Row="0" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Button x:Name="AuthButton" Padding="10 5" Margin="10" Click="AuthButton_Click">Войти</Button>
+            <Button x:Name="RegButton" Padding="10 5" Margin="10" Click="RegButton_Click">Зарегистрироваться</Button>
+            <Button x:Name="GuestButton" Padding="10 5" Margin="10" Click="GuestButton_Click">Войти как гость</Button>
+        </StackPanel>
+
+        <Frame x:Name="MainFrame" Grid.Row="1" NavigationUIVisibility="Hidden"></Frame>
+    </Grid>
+</Window>
