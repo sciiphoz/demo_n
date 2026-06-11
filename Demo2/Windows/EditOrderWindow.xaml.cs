@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Demo2.DataBaseContext;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -19,9 +20,16 @@ namespace Demo2.Windows
     /// </summary>
     public partial class EditOrderWindow : Window
     {
+        private Order _currentOrder;
         public EditOrderWindow()
         {
             InitializeComponent();
+        }
+        public EditOrderWindow(Order order)
+        {
+            InitializeComponent();
+
+            _currentOrder = order;
         }
     }
 }

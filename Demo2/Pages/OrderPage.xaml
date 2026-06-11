@@ -9,9 +9,28 @@
       Title="OrderPage">
 
     <Grid>
-        <ScrollViewer VerticalScrollBarVisibility="Auto">
-            <ListBox x:Name="MainListBox" ItemsSource="{Binding}" MouseDoubleClick="MainListBox_MouseDoubleClick">
-                <ListBox.ItemTemplate>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"></RowDefinition>
+            <RowDefinition Height="5*"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Row="0" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <TextBox x:Name="SearchTB" Height="25" Width="125" Margin="10" TextChanged="SearchTB_TextChanged"></TextBox>
+            <ComboBox x:Name="FilterCB" Height="25" Width="75" Margin="10" SelectionChanged="FilterCB_SelectionChanged"></ComboBox>
+            <ComboBox x:Name="SortCB" Height="25" Width="75" Margin="10" SelectionChanged="SortCB_SelectionChanged">
+                <ComboBoxItem>По умолчанию</ComboBoxItem>
+                <ComboBoxItem>По цене (убыв.)</ComboBoxItem>
+                <ComboBoxItem>По цене (возр.)</ComboBoxItem>
+            </ComboBox>
+
+            <Button x:Name="ResetButton" Padding="10 5" Margin="10" Click="ResetButton_Click">По умолчанию</Button>
+            <Button x:Name="AddButton" Padding="10 5" Margin="10" Click="AddButton_Click">Добавить</Button>
+            <Button x:Name="DeleteButton" Padding="10 5" Margin="10" Click="DeleteButton_Click">Удалить</Button>
+        </StackPanel>
+
+        <ScrollViewer Grid.Row="1" VerticalScrollBarVisibility="Auto">
+            <ListView x:Name="MainListView" ItemsSource="{Binding}" MouseDoubleClick="MainListView_MouseDoubleClick">
+                <ListView.ItemTemplate>
                     <DataTemplate>
                         <Border>
                             <Grid>
@@ -30,8 +49,8 @@
                             </Grid>
                         </Border>
                     </DataTemplate>
-                </ListBox.ItemTemplate>
-            </ListBox>
+                </ListView.ItemTemplate>
+            </ListView>
         </ScrollViewer>
     </Grid>
 </Page>
