@@ -36,7 +36,11 @@ namespace Demo2.Windows
 
             _currentProduct = product;
 
-            ArticleTB.Text = _currentProduct.Article;
+            ImageSourceConverter converter = new ImageSourceConverter();
+            ImageSource imageSource = (ImageSource)converter.ConvertFromString(_currentProduct.Image == null ? _currentProduct.Image : "/Media/Products/picture.png");
+            ProductImage.Source = imageSource;
+
+            IDTB.Text = _currentProduct.ID.ToString();
             DescTB.Text = _currentProduct.Desc;
             DiscountTB.Text = _currentProduct.Discount.ToString();
             NameTB.Text = _currentProduct.Name;
@@ -53,7 +57,6 @@ namespace Demo2.Windows
         {
             try
             {
-                _currentProduct.Article = ArticleTB.Text;
                 _currentProduct.Desc = DescTB.Text;
                 _currentProduct.Discount = Convert.ToDecimal(DiscountTB.Text);
                 _currentProduct.Name = NameTB.Text;

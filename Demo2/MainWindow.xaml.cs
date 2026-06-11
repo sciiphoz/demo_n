@@ -27,17 +27,6 @@ namespace Demo2
 
             MainFrame.Content = new AuthPage();
         }
-
-        private void AuthButton_Click(object sender, RoutedEventArgs e)
-        {
-            MainFrame.Content = new AuthPage();
-        }
-
-        private void RegButton_Click(object sender, RoutedEventArgs e)
-        {
-            MainFrame.Content = new RegPage();
-        }
-
         private void GuestButton_Click(object sender, RoutedEventArgs e)
         {
 
