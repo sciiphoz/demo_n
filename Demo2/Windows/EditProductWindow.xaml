@@ -23,7 +23,7 @@
         </Grid.ColumnDefinitions>
 
         <StackPanel Grid.RowSpan="2" Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Center" Orientation="Vertical">
-            <Image x:Name="ProductImage"></Image>
+            <Image x:Name="ProductImage" Height="100"></Image>
             <Button x:Name="LoadImageButton" Click="LoadImageButton_Click">Загрузить фото</Button>
         </StackPanel>
         <StackPanel Grid.Row="2" Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Center" Orientation="Vertical">

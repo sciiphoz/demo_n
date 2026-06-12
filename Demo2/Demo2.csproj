@@ -236,20 +236,6 @@
       <DependentUpon>DataBaseModel.edmx</DependentUpon>
       <LastGenOutput>DataBaseModel.cs</LastGenOutput>
     </Content>
-    <Resource Include="Media\Products\2G3280.jpg" />
-    <Resource Include="Media\Products\3L7RCZ.jpg" />
-    <Resource Include="Media\Products\3XBOTN.jpeg" />
-    <Resource Include="Media\Products\BPV4MM.jpg" />
-    <Resource Include="Media\Products\F895RB.jpg" />
-    <Resource Include="Media\Products\JVL42J.jpg" />
-    <Resource Include="Media\Products\MIO8YV.jpg" />
-    <Resource Include="Media\Products\picture.png" />
-    <Resource Include="Media\Products\PMEZMH.jpg" />
-    <Resource Include="Media\Products\S72AM3.jpg" />
-    <Resource Include="Media\Products\UER2QD.jpg" />
-    <Resource Include="Media\Logo\icon.ico" />
-    <Resource Include="Media\Logo\icon.jpg" />
-    <Resource Include="Media\Logo\icon.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

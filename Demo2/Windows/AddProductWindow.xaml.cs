@@ -26,6 +26,8 @@ namespace Demo2.Windows
         {
             InitializeComponent();
 
+            ProductImage.Source = new BitmapImage(new Uri("/Media/Products/picture.png", UriKind.Relative));
+
             MeasurementCB.ItemsSource = DataBaseConnection.demoEntities.Measurement.OrderBy(x => x.ID).Select(x => x.Name).ToList();
             CategoryCB.ItemsSource = DataBaseConnection.demoEntities.Category.OrderBy(x => x.ID).Select(x => x.Name).ToList();
             ManufacturerCB.ItemsSource = DataBaseConnection.demoEntities.Manufacturer.OrderBy(x => x.ID).Select(x => x.Name).ToList();

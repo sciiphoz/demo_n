@@ -140,7 +140,29 @@ namespace Demo2.Pages
 
             MainListView.ItemsSource = result.ToList();
         }
+        private void ProductImage_Loaded(object sender, RoutedEventArgs e)
+        {
+            var img = sender as Image;
+            var product = img.DataContext as Product;
+            if (product == null) return;
 
+            string path = product.Image;
+
+            if (string.IsNullOrEmpty(path) || path == "/Media/Products/picture.png")
+            {
+                img.Source = new BitmapImage(new Uri("/Media/Products/picture.png", UriKind.Relative));
+                return;
+            }
+
+            string folder = AppDomain.CurrentDomain.BaseDirectory + "Media\\Products\\";
+            string file = System.IO.Path.GetFileName(path);
+            string full = System.IO.Path.Combine(folder, file);
+
+            if (System.IO.File.Exists(full))
+                img.Source = new BitmapImage(new Uri(full));
+            else
+                img.Source = new BitmapImage(new Uri("/Media/Products/picture.png", UriKind.Relative));
+        }
         private void RefreshData()
         {
             MainListView.ItemsSource = DataBaseConnection.demoEntities.Product

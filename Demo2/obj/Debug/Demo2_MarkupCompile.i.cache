@@ -16,5 +16,5 @@ C:\Users\sciiphoz\source\repos\Demo2\Demo2\App.xaml
 181199973562
 MainWindow.xaml;Pages\AuthPage.xaml;Pages\OrderPage.xaml;Pages\ProductPage.xaml;Windows\AddOrderWindow.xaml;Windows\AddProductWindow.xaml;Windows\EditOrderWindow.xaml;Windows\EditProductWindow.xaml;Windows\InfoWindow.xaml;
 
-False
+True
 

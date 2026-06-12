@@ -34,7 +34,7 @@
                         <Border x:Name="ItemBorder">
                             <Grid>
                                 <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
-                                    <Image Height="150" Margin="10" Source="{Binding Image, TargetNullValue=/Media/Products/picture.png}"/>
+                                    <Image Height="150" Margin="10" x:Name="ProductImage" Loaded="ProductImage_Loaded"/>
 
                                     <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="5">
                                         <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Margin="0 10">

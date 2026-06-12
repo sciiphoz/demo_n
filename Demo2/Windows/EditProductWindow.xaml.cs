@@ -66,12 +66,18 @@ namespace Demo2.Windows
                 {
                     if (!string.IsNullOrEmpty(_currentProduct.Image) && _currentProduct.Image != "/Media/Products/picture.png")
                     {
+                        ProductImage.Source = null;
+
                         string folder = AppDomain.CurrentDomain.BaseDirectory + "Media\\Products\\";
                         string oldFile = System.IO.Path.GetFileName(_currentProduct.Image);
                         string oldPath = System.IO.Path.Combine(folder, oldFile);
 
-                        if (File.Exists(oldPath))
-                            File.Delete(oldPath);
+                        try
+                        {
+                            if (System.IO.File.Exists(oldPath))
+                                System.IO.File.Delete(oldPath);
+                        }
+                        catch { }
                     }
                     _currentProduct.Image = SaveImage(_newImage);
                 }
@@ -103,7 +109,13 @@ namespace Demo2.Windows
             if (dialog.ShowDialog() == true)
             {
                 _newImage = dialog.FileName;
-                ProductImage.Source = new BitmapImage(new Uri(dialog.FileName));
+
+                var bitmap = new BitmapImage();
+                bitmap.BeginInit();
+                bitmap.CacheOption = BitmapCacheOption.OnLoad;
+                bitmap.UriSource = new Uri(dialog.FileName);
+                bitmap.EndInit();
+                ProductImage.Source = bitmap;
             }
         }
 
