@@ -143,7 +143,12 @@ namespace Demo2.Pages
 
         private void RefreshData()
         {
-            MainListView.ItemsSource = DataBaseConnection.demoEntities.Product.Include("Category").Include("Manufacturer").Include("Supplier").Include("Measurement").ToList();
+            MainListView.ItemsSource = DataBaseConnection.demoEntities.Product
+                .Include("Category")
+                .Include("Manufacturer")
+                .Include("Supplier")
+                .Include("Measurement")
+                .ToList();
         }
     }
 }

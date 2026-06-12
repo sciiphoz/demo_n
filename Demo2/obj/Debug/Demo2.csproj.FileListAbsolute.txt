@@ -25,7 +25,6 @@ C:\Users\sciiphoz\source\repos\Demo2\Demo2\obj\Debug\Demo2.csproj.CoreCompileInp
 C:\Users\sciiphoz\source\repos\Demo2\Demo2\obj\Debug\Demo2.csproj.Up2Date
 C:\Users\sciiphoz\source\repos\Demo2\Demo2\obj\Debug\Demo2.exe
 C:\Users\sciiphoz\source\repos\Demo2\Demo2\obj\Debug\Demo2.pdb
-C:\Users\sciiphoz\source\repos\Demo2\Demo2\obj\Debug\Demo2.exe.config
 C:\Users\sciiphoz\source\repos\Demo2\Demo2\obj\Debug\Windows\AddOrderWindow.g.cs
 C:\Users\sciiphoz\source\repos\Demo2\Demo2\obj\Debug\Windows\AddProductWindow.g.cs
 C:\Users\sciiphoz\source\repos\Demo2\Demo2\obj\Debug\Windows\EditOrderWindow.g.cs
@@ -34,3 +33,4 @@ C:\Users\sciiphoz\source\repos\Demo2\Demo2\obj\Debug\Windows\AddOrderWindow.baml
 C:\Users\sciiphoz\source\repos\Demo2\Demo2\obj\Debug\Windows\AddProductWindow.baml
 C:\Users\sciiphoz\source\repos\Demo2\Demo2\obj\Debug\Windows\EditOrderWindow.baml
 C:\Users\sciiphoz\source\repos\Demo2\Demo2\obj\Debug\Windows\EditProductWindow.baml
+C:\Users\sciiphoz\source\repos\Demo2\Demo2\obj\Debug\GeneratedInternalTypeHelper.g.cs

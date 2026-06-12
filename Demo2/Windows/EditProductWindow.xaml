@@ -22,8 +22,10 @@
             <ColumnDefinition></ColumnDefinition>
         </Grid.ColumnDefinitions>
 
-        <Image x:Name="ProductImage"></Image>
-        
+        <StackPanel Grid.RowSpan="2" Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Center" Orientation="Vertical">
+            <Image x:Name="ProductImage"></Image>
+            <Button x:Name="LoadImageButton" Click="LoadImageButton_Click">Загрузить фото</Button>
+        </StackPanel>
         <StackPanel Grid.Row="2" Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Center" Orientation="Vertical">
             <TextBlock>Название:</TextBlock>
             <TextBox x:Name="NameTB"></TextBox>
