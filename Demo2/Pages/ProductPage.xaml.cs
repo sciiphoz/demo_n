@@ -51,6 +51,26 @@ namespace Demo2.Pages
 
             FilterCB.SelectedIndex = 0;
             SortCB.SelectedIndex = 0;
+
+            if (CurrentUser.currentUser.ID_Role == 0 || CurrentUser.currentUser.ID_Role == 3)
+            {
+                SearchTB.Visibility = Visibility.Collapsed;
+                FilterCB.Visibility = Visibility.Collapsed;
+                SortCB.Visibility = Visibility.Collapsed;
+                ResetButton.Visibility = Visibility.Collapsed;
+                AddButton.Visibility = Visibility.Collapsed;
+                DeleteButton.Visibility = Visibility.Collapsed;
+
+                MainListView.MouseDoubleClick -= MainListView_MouseDoubleClick;
+            }
+
+            if (CurrentUser.currentUser.ID_Role == 2)
+            {
+                AddButton.Visibility = Visibility.Collapsed;
+                DeleteButton.Visibility = Visibility.Collapsed;
+
+                MainListView.MouseDoubleClick -= MainListView_MouseDoubleClick;
+            }
         }
 
         private void MainListView_MouseDoubleClick(object sender, MouseButtonEventArgs e)
@@ -121,7 +141,10 @@ namespace Demo2.Pages
             IQueryable<Product> result = DataBaseConnection.demoEntities.Product;
 
             if (!string.IsNullOrEmpty(search)) 
-                result = result.Where(x => x.Name.Contains(search));
+                result = result.Where(x => x.Name.Contains(search) 
+                || x.Desc.Contains(search) 
+                || x.Manufacturer.Name.Contains(search) 
+                || x.Supplier.Name.Contains(search));
 
             if (selectedFilter != null && selectedFilter.Value.HasValue)
                 result = result.Where(x => x.ID_Manufacturer == selectedFilter.Value.Value);
@@ -150,7 +173,7 @@ namespace Demo2.Pages
 
             if (string.IsNullOrEmpty(path) || path == "/Media/Products/picture.png")
             {
-                img.Source = new BitmapImage(new Uri("/Media/Products/picture.png", UriKind.Relative));
+                img.Source = new BitmapImage(new Uri("C:\\Users\\sciiphoz\\source\\repos\\Demo2\\Demo2\\bin\\Debug\\Media\\Products\\picture.png", UriKind.Absolute));
                 return;
             }
 
@@ -161,7 +184,7 @@ namespace Demo2.Pages
             if (System.IO.File.Exists(full))
                 img.Source = new BitmapImage(new Uri(full));
             else
-                img.Source = new BitmapImage(new Uri("/Media/Products/picture.png", UriKind.Relative));
+                img.Source = new BitmapImage(new Uri("C:\\Users\\sciiphoz\\source\\repos\\Demo2\\Demo2\\bin\\Debug\\Media\\Products\\picture.png", UriKind.Absolute));
         }
         private void RefreshData()
         {

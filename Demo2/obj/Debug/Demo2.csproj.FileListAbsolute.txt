@@ -33,3 +33,4 @@ C:\Users\sciiphoz\source\repos\Demo2\Demo2\obj\Debug\Demo2.csproj.CoreCompileInp
 C:\Users\sciiphoz\source\repos\Demo2\Demo2\obj\Debug\Demo2.csproj.Up2Date
 C:\Users\sciiphoz\source\repos\Demo2\Demo2\obj\Debug\Demo2.exe
 C:\Users\sciiphoz\source\repos\Demo2\Demo2\obj\Debug\Demo2.pdb
+C:\Users\sciiphoz\source\repos\Demo2\Demo2\obj\Debug\Demo2.exe.config

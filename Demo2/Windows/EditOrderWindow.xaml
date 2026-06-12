@@ -5,8 +5,47 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Demo2.Windows"
         mc:Ignorable="d"
-        Title="EditOrderWindow" Height="450" Width="800">
+        Title="EditOrderWindow" Height="450" Width="800"
+        WindowStartupLocation="CenterScreen">
     <Grid>
-        
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Row="0" Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Label>Артикул</Label>
+            <ComboBox x:Name="ArticleCB"></ComboBox>
+        </StackPanel>
+        <StackPanel Grid.Row="1" Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Label>Пользователь</Label>
+            <ComboBox x:Name="UserCB"></ComboBox>
+        </StackPanel>
+        <StackPanel Grid.Row="2" Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Label>Статус</Label>
+            <ComboBox x:Name="StatusCB"></ComboBox>
+        </StackPanel>
+        <StackPanel Grid.Row="3" Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Label>Адрес</Label>
+            <ComboBox x:Name="AddressCB"></ComboBox>
+        </StackPanel>
+        <StackPanel Grid.Row="4" Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Label>Дата заказа</Label>
+            <DatePicker x:Name="OrderDateDP"></DatePicker>
+        </StackPanel>
+        <StackPanel Grid.Row="5" Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Label>Дата доставки</Label>
+            <DatePicker x:Name="ShipmentDateDP"></DatePicker>
+        </StackPanel>
+        <StackPanel Grid.Row="6" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Button x:Name="EditButton" Margin="10" Padding="10 5" Click="EditButton_Click">Изменить</Button>
+            <Button x:Name="CancelButton" Margin="10" Padding="10 5" Click="CancelButton_Click">Отменить</Button>
+        </StackPanel>
     </Grid>
 </Window>
+

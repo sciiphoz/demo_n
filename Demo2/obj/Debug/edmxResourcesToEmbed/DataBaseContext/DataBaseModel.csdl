@@ -48,7 +48,7 @@
     <Key>
       <PropertyRef Name="ID" />
     </Key>
-    <Property Name="ID" Type="Int32" Nullable="false" />
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
     <Property Name="OrderDate" Type="DateTime" Nullable="false" Precision="0" />
     <Property Name="ShipmentDate" Type="DateTime" Nullable="false" Precision="0" />
     <Property Name="ID_Address" Type="Int32" Nullable="false" />
@@ -64,7 +64,7 @@
     <Key>
       <PropertyRef Name="ID" />
     </Key>
-    <Property Name="ID" Type="Int32" Nullable="false" />
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
     <Property Name="ID_Order" Type="Int32" Nullable="false" />
     <Property Name="ID_Product" Type="Int32" Nullable="false" />
     <Property Name="Quantity" Type="Int32" Nullable="false" />

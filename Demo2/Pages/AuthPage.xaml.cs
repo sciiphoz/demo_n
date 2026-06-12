@@ -29,15 +29,30 @@ namespace Demo2.Pages
 
         private void AuthButton_Click(object sender, RoutedEventArgs e)
         {
-            User currentUser = DataBaseConnection.demoEntities.User.FirstOrDefault(x => x.ID == 11);
-            CurrentUser.currentUser = currentUser;
+            try
+            {
+                if (string.IsNullOrEmpty(LoginTB.Text) || string.IsNullOrEmpty(PasswordTB.Text)) throw new Exception("Все поля должны быть заполнены.");
 
-            if (currentUser == null) return;
+                if (DataBaseConnection.demoEntities.User.Where(x => x.Login == LoginTB.Text.Trim() && x.Password == PasswordTB.Text.Trim()).Any())
+                    throw new Exception("Некорректные данные.");
 
-            var parent = Window.GetWindow(this);
-            var infoWindow = new InfoWindow();
-            infoWindow.Show();
-            parent.Close();
+                User currentUser = DataBaseConnection.demoEntities.User
+                    .Where(x => x.Login == LoginTB.Text.Trim() && x.Password == PasswordTB.Text.Trim()).FirstOrDefault();
+
+                if (currentUser == null) throw new Exception("Ошибка авторизации.");
+
+                CurrentUser.currentUser = currentUser;
+
+                var parent = Window.GetWindow(this);
+                var infoWindow = new InfoWindow();
+                infoWindow.Show();
+                parent.Close();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Ошибка.", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
+
         }
     }
 }

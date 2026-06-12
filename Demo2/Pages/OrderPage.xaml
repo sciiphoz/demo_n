@@ -39,12 +39,14 @@
                                     <ColumnDefinition></ColumnDefinition>
                                 </Grid.ColumnDefinitions>
 
-                                <StackPanel Margin="10">
-                                    <TextBlock Text="{Binding ID}"></TextBlock>
-                                    <TextBlock Text="{Binding Status.Name}"></TextBlock>
-                                    <TextBlock Text="{Binding OrderDate}"></TextBlock>
-                                    <TextBlock Text="{Binding Address.Name}"></TextBlock>
-                                    <TextBlock Text="{Binding ShipmentDate}"></TextBlock>
+                                <StackPanel Margin="10" HorizontalAlignment="Left" VerticalAlignment="Center">
+                                    <TextBlock Text="{Binding ID, StringFormat={}Артикул: {0}}" FontWeight="Bold"></TextBlock>
+                                    <TextBlock Text="{Binding Status.Name, StringFormat={}Статус: {0}}"></TextBlock>
+                                    <TextBlock Text="{Binding OrderDate, StringFormat={}Дата заказа: {0}}"></TextBlock>
+                                    <TextBlock Text="{Binding Address.Name, StringFormat={}Адрес: {0}}"></TextBlock>
+                                </StackPanel>
+                                <StackPanel Margin="400 10" HorizontalAlignment="Right" VerticalAlignment="Center">
+                                    <TextBlock Text="{Binding ShipmentDate, StringFormat={}Дата доставки: {0}}"></TextBlock>
                                 </StackPanel>
                             </Grid>
                         </Border>

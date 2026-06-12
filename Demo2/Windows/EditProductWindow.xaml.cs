@@ -64,21 +64,6 @@ namespace Demo2.Windows
 
                 if (_newImage != null)
                 {
-                    if (!string.IsNullOrEmpty(_currentProduct.Image) && _currentProduct.Image != "/Media/Products/picture.png")
-                    {
-                        ProductImage.Source = null;
-
-                        string folder = AppDomain.CurrentDomain.BaseDirectory + "Media\\Products\\";
-                        string oldFile = System.IO.Path.GetFileName(_currentProduct.Image);
-                        string oldPath = System.IO.Path.Combine(folder, oldFile);
-
-                        try
-                        {
-                            if (System.IO.File.Exists(oldPath))
-                                System.IO.File.Delete(oldPath);
-                        }
-                        catch { }
-                    }
                     _currentProduct.Image = SaveImage(_newImage);
                 }
 
@@ -129,19 +114,7 @@ namespace Demo2.Windows
 
             string fullPath = System.IO.Path.Combine(folder, name);
 
-            var image = new BitmapImage(new Uri(file));
-            double ratio = Math.Min(300.0 / image.Width, 200.0 / image.Height);
-
-            if (ratio < 1)
-            {
-                var resized = new TransformedBitmap(image, new ScaleTransform(ratio, ratio));
-                var encoder = new JpegBitmapEncoder();
-                encoder.Frames.Add(BitmapFrame.Create(resized));
-                using (var stream = new FileStream(fullPath, FileMode.Create))
-                    encoder.Save(stream);
-            }
-            else
-                File.Copy(file, fullPath, true);
+            System.IO.File.Copy(file, fullPath, true);
 
             return "/Media/Products/" + name;
         }
@@ -151,7 +124,7 @@ namespace Demo2.Windows
 
             if (string.IsNullOrEmpty(imagePath) || imagePath == "/Media/Products/picture.png")
             {
-                ProductImage.Source = new BitmapImage(new Uri("/Media/Products/picture.png", UriKind.Relative));
+                ProductImage.Source = new BitmapImage(new Uri("C:\\Users\\sciiphoz\\source\\repos\\Demo2\\Demo2\\bin\\Debug\\Media\\Products\\picture.png", UriKind.Absolute));
                 return;
             }
 
@@ -162,7 +135,7 @@ namespace Demo2.Windows
             if (File.Exists(fullPath))
                 ProductImage.Source = new BitmapImage(new Uri(fullPath));
             else
-                ProductImage.Source = new BitmapImage(new Uri("/Media/Products/picture.png", UriKind.Relative));
+                ProductImage.Source = new BitmapImage(new Uri("C:\\Users\\sciiphoz\\source\\repos\\Demo2\\Demo2\\bin\\Debug\\Media\\Products\\picture.png", UriKind.Absolute));
         }
     }
 }

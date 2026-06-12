@@ -1,4 +1,6 @@
-﻿using Demo2.Pages;
+﻿using Demo2.DataBaseContext;
+using Demo2.Pages;
+using Demo2.Windows;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -29,7 +31,19 @@ namespace Demo2
         }
         private void GuestButton_Click(object sender, RoutedEventArgs e)
         {
+            User currentUser = new User
+            {
+                FullName = "Гость",
+                Login = " ",
+                ID_Role = 0
+            };
 
+            CurrentUser.currentUser = currentUser;
+
+            var parent = Window.GetWindow(this);
+            var infoWindow = new InfoWindow();
+            infoWindow.Show();
+            parent.Close();
         }
     }
 }

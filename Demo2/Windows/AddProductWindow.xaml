@@ -71,7 +71,7 @@
 
 
         <StackPanel Grid.ColumnSpan="2" Grid.Row="6" Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center">
-            <Button x:Name="EditButton" Margin="10" Padding="10 5" Click="EditButton_Click">Добавить</Button>
+            <Button x:Name="AddButton" Margin="10" Padding="10 5" Click="AddButton_Click">Добавить</Button>
             <Button x:Name="CancelButton" Margin="10" Padding="10 5" Click="CancelButton_Click">Отменить</Button>
         </StackPanel>
     </Grid>

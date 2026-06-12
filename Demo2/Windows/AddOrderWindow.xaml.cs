@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Demo2.DataBaseContext;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -22,6 +23,50 @@ namespace Demo2.Windows
         public AddOrderWindow()
         {
             InitializeComponent();
+
+            AddressCB.ItemsSource = DataBaseConnection.demoEntities.Address.OrderBy(x => x.ID).Select(x => x.Name).ToList();
+            ArticleCB.ItemsSource = DataBaseConnection.demoEntities.Product.OrderBy(x => x.ID).Select(x => x.Article).ToList();
+            UserCB.ItemsSource = DataBaseConnection.demoEntities.User.OrderBy(x => x.ID).Select(x => x.FullName).ToList();
+            StatusCB.ItemsSource = DataBaseConnection.demoEntities.Status.OrderBy(x => x.ID).Select(x => x.Name).ToList();
+        }
+
+        private void AddButton_Click(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+
+                var newOrder = new Order
+                {
+                    OrderDate = OrderDateDP.SelectedDate,
+                    ShipmentDate = ShipmentDateDP.SelectedDate,
+                    ID_User = UserCB.SelectedIndex + 1,
+                    ID_Status = StatusCB.SelectedIndex + 1,
+                    ID_Address = AddressCB.SelectedIndex + 1,
+                    Code = DataBaseConnection.demoEntities.Order.Max(x => x.Code) + 1,
+                };
+
+                DataBaseConnection.demoEntities.Order.Add(newOrder);
+
+                var newOrderProduct = new Order_Products
+                {
+                    ID_Product = ArticleCB.SelectedIndex + 1,
+                    ID_Order = DataBaseConnection.demoEntities.Order.Max(x => x.ID),
+                    Quantity = 1
+                };
+
+                DataBaseConnection.demoEntities.Order_Products.Add(newOrderProduct);
+                DataBaseConnection.demoEntities.SaveChanges();
+                this.Close();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Ошибка.", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
+        }
+
+        private void CancelButton_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
         }
     }
 }

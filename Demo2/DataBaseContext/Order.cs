@@ -20,8 +20,8 @@ namespace Demo2.DataBaseContext
         }
     
         public int ID { get; set; }
-        public System.DateTime OrderDate { get; set; }
-        public System.DateTime ShipmentDate { get; set; }
+        public System.DateTime? OrderDate { get; set; }
+        public System.DateTime? ShipmentDate { get; set; }
         public int ID_Address { get; set; }
         public int ID_User { get; set; }
         public int Code { get; set; }

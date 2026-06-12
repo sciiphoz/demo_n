@@ -26,7 +26,7 @@ namespace Demo2.Windows
         {
             InitializeComponent();
 
-            ProductImage.Source = new BitmapImage(new Uri("/Media/Products/picture.png", UriKind.Relative));
+            ProductImage.Source = new BitmapImage(new Uri("C:\\Users\\sciiphoz\\source\\repos\\Demo2\\Demo2\\bin\\Debug\\Media\\Products\\picture.png", UriKind.Absolute));
 
             MeasurementCB.ItemsSource = DataBaseConnection.demoEntities.Measurement.OrderBy(x => x.ID).Select(x => x.Name).ToList();
             CategoryCB.ItemsSource = DataBaseConnection.demoEntities.Category.OrderBy(x => x.ID).Select(x => x.Name).ToList();
@@ -39,7 +39,7 @@ namespace Demo2.Windows
             SupplierCB.SelectedIndex = 0;
         }
 
-        private void EditButton_Click(object sender, RoutedEventArgs e)
+        private void AddButton_Click(object sender, RoutedEventArgs e)
         {
             try
             {

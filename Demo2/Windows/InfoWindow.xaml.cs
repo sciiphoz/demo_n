@@ -26,10 +26,18 @@ namespace Demo2.Windows
             InitializeComponent();
 
             MainFrame.Content = new ProductPage();
+            
+            LogoImage.Source = new BitmapImage(new Uri("C:\\Users\\sciiphoz\\source\\repos\\Demo2\\Demo2\\bin\\Debug\\Media\\Logo\\icon.png", UriKind.Absolute));
 
             UserName.Text = CurrentUser.currentUser.FullName;
             UserLogin.Text = CurrentUser.currentUser.Login;
-            UserRole.Text = CurrentUser.currentUser.Role.Name;
+            UserRole.Text = CurrentUser.currentUser.ID_Role == 0 ? "Гость" : CurrentUser.currentUser.Role.Name;
+
+            if (CurrentUser.currentUser.ID_Role == 0 || CurrentUser.currentUser.ID_Role == 3)
+            {
+                OrderButton.Visibility = Visibility.Collapsed;
+            }
+
         }
 
         private void ProductButton_Click(object sender, RoutedEventArgs e)
@@ -40,6 +48,14 @@ namespace Demo2.Windows
         private void OrderButton_Click(object sender, RoutedEventArgs e)
         {
             MainFrame.Content = new OrderPage();
+        }
+
+        private void LogoutButton_Click(object sender, RoutedEventArgs e)
+        {
+            var mainWindow = new MainWindow();
+            mainWindow.Show();
+            CurrentUser.currentUser = null;
+            this.Close();
         }
     }
 }

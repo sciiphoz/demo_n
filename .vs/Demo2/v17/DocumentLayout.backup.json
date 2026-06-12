@@ -3,28 +3,56 @@
   "WorkspaceRootPath": "C:\\Users\\sciiphoz\\source\\repos\\Demo2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C69752C4-4CEB-4CEA-B90F-4C76CDD0E673}|Demo2\\Demo2.csproj|c:\\users\\sciiphoz\\source\\repos\\demo2\\demo2\\windows\\editproductwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C69752C4-4CEB-4CEA-B90F-4C76CDD0E673}|Demo2\\Demo2.csproj|solutionrelative:demo2\\windows\\editproductwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C69752C4-4CEB-4CEA-B90F-4C76CDD0E673}|Demo2\\Demo2.csproj|c:\\users\\sciiphoz\\source\\repos\\demo2\\demo2\\windows\\infowindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C69752C4-4CEB-4CEA-B90F-4C76CDD0E673}|Demo2\\Demo2.csproj|solutionrelative:demo2\\windows\\infowindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C69752C4-4CEB-4CEA-B90F-4C76CDD0E673}|Demo2\\Demo2.csproj|C:\\Users\\sciiphoz\\source\\repos\\Demo2\\demo2\\windows\\editproductwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{C69752C4-4CEB-4CEA-B90F-4C76CDD0E673}|Demo2\\Demo2.csproj|solutionrelative:demo2\\windows\\editproductwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{C69752C4-4CEB-4CEA-B90F-4C76CDD0E673}|Demo2\\Demo2.csproj|c:\\users\\sciiphoz\\source\\repos\\demo2\\demo2\\windows\\infowindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C69752C4-4CEB-4CEA-B90F-4C76CDD0E673}|Demo2\\Demo2.csproj|solutionrelative:demo2\\windows\\infowindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C69752C4-4CEB-4CEA-B90F-4C76CDD0E673}|Demo2\\Demo2.csproj|C:\\Users\\sciiphoz\\source\\repos\\Demo2\\demo2\\windows\\addproductwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{C69752C4-4CEB-4CEA-B90F-4C76CDD0E673}|Demo2\\Demo2.csproj|solutionrelative:demo2\\windows\\addproductwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C69752C4-4CEB-4CEA-B90F-4C76CDD0E673}|Demo2\\Demo2.csproj|C:\\Users\\sciiphoz\\source\\repos\\Demo2\\demo2\\windows\\addproductwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C69752C4-4CEB-4CEA-B90F-4C76CDD0E673}|Demo2\\Demo2.csproj|solutionrelative:demo2\\windows\\addproductwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C69752C4-4CEB-4CEA-B90F-4C76CDD0E673}|Demo2\\Demo2.csproj|C:\\Users\\sciiphoz\\source\\repos\\Demo2\\demo2\\pages\\productpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C69752C4-4CEB-4CEA-B90F-4C76CDD0E673}|Demo2\\Demo2.csproj|c:\\users\\sciiphoz\\source\\repos\\demo2\\demo2\\pages\\productpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C69752C4-4CEB-4CEA-B90F-4C76CDD0E673}|Demo2\\Demo2.csproj|solutionrelative:demo2\\pages\\productpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C69752C4-4CEB-4CEA-B90F-4C76CDD0E673}|Demo2\\Demo2.csproj|C:\\Users\\sciiphoz\\source\\repos\\Demo2\\demo2\\pages\\productpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{C69752C4-4CEB-4CEA-B90F-4C76CDD0E673}|Demo2\\Demo2.csproj|solutionrelative:demo2\\pages\\productpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{C69752C4-4CEB-4CEA-B90F-4C76CDD0E673}|Demo2\\Demo2.csproj|c:\\users\\sciiphoz\\source\\repos\\demo2\\demo2\\pages\\orderpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C69752C4-4CEB-4CEA-B90F-4C76CDD0E673}|Demo2\\Demo2.csproj|solutionrelative:demo2\\pages\\orderpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C69752C4-4CEB-4CEA-B90F-4C76CDD0E673}|Demo2\\Demo2.csproj|c:\\users\\sciiphoz\\source\\repos\\demo2\\demo2\\pages\\orderpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C69752C4-4CEB-4CEA-B90F-4C76CDD0E673}|Demo2\\Demo2.csproj|solutionrelative:demo2\\pages\\orderpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C69752C4-4CEB-4CEA-B90F-4C76CDD0E673}|Demo2\\Demo2.csproj|c:\\users\\sciiphoz\\source\\repos\\demo2\\demo2\\databasecontext\\discountedprice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C69752C4-4CEB-4CEA-B90F-4C76CDD0E673}|Demo2\\Demo2.csproj|solutionrelative:demo2\\databasecontext\\discountedprice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C69752C4-4CEB-4CEA-B90F-4C76CDD0E673}|Demo2\\Demo2.csproj|c:\\users\\sciiphoz\\source\\repos\\demo2\\demo2\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C69752C4-4CEB-4CEA-B90F-4C76CDD0E673}|Demo2\\Demo2.csproj|solutionrelative:demo2\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C69752C4-4CEB-4CEA-B90F-4C76CDD0E673}|Demo2\\Demo2.csproj|c:\\users\\sciiphoz\\source\\repos\\demo2\\demo2\\pages\\authpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C69752C4-4CEB-4CEA-B90F-4C76CDD0E673}|Demo2\\Demo2.csproj|solutionrelative:demo2\\pages\\authpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C69752C4-4CEB-4CEA-B90F-4C76CDD0E673}|Demo2\\Demo2.csproj|c:\\users\\sciiphoz\\source\\repos\\demo2\\demo2\\databasecontext\\order_products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C69752C4-4CEB-4CEA-B90F-4C76CDD0E673}|Demo2\\Demo2.csproj|solutionrelative:demo2\\databasecontext\\order_products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C69752C4-4CEB-4CEA-B90F-4C76CDD0E673}|Demo2\\Demo2.csproj|c:\\users\\sciiphoz\\source\\repos\\demo2\\demo2\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C69752C4-4CEB-4CEA-B90F-4C76CDD0E673}|Demo2\\Demo2.csproj|solutionrelative:demo2\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C69752C4-4CEB-4CEA-B90F-4C76CDD0E673}|Demo2\\Demo2.csproj|c:\\users\\sciiphoz\\source\\repos\\demo2\\demo2\\pages\\authpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C69752C4-4CEB-4CEA-B90F-4C76CDD0E673}|Demo2\\Demo2.csproj|solutionrelative:demo2\\pages\\authpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C69752C4-4CEB-4CEA-B90F-4C76CDD0E673}|Demo2\\Demo2.csproj|c:\\users\\sciiphoz\\source\\repos\\demo2\\demo2\\windows\\editorderwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C69752C4-4CEB-4CEA-B90F-4C76CDD0E673}|Demo2\\Demo2.csproj|solutionrelative:demo2\\windows\\editorderwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C69752C4-4CEB-4CEA-B90F-4C76CDD0E673}|Demo2\\Demo2.csproj|c:\\users\\sciiphoz\\source\\repos\\demo2\\demo2\\windows\\editorderwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C69752C4-4CEB-4CEA-B90F-4C76CDD0E673}|Demo2\\Demo2.csproj|solutionrelative:demo2\\windows\\editorderwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +62,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -43,72 +71,166 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "EditProductWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\sciiphoz\\source\\repos\\Demo2\\Demo2\\Windows\\EditProductWindow.xaml",
-              "RelativeDocumentMoniker": "Demo2\\Windows\\EditProductWindow.xaml",
-              "ToolTip": "C:\\Users\\sciiphoz\\source\\repos\\Demo2\\Demo2\\Windows\\EditProductWindow.xaml",
-              "RelativeToolTip": "Demo2\\Windows\\EditProductWindow.xaml",
+              "Title": "InfoWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\sciiphoz\\source\\repos\\Demo2\\Demo2\\Windows\\InfoWindow.xaml",
+              "RelativeDocumentMoniker": "Demo2\\Windows\\InfoWindow.xaml",
+              "ToolTip": "C:\\Users\\sciiphoz\\source\\repos\\Demo2\\Demo2\\Windows\\InfoWindow.xaml",
+              "RelativeToolTip": "Demo2\\Windows\\InfoWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-06-12T07:22:45.106Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "EditProductWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\sciiphoz\\source\\repos\\Demo2\\Demo2\\Windows\\EditProductWindow.xaml.cs",
-              "RelativeDocumentMoniker": "Demo2\\Windows\\EditProductWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\sciiphoz\\source\\repos\\Demo2\\Demo2\\Windows\\EditProductWindow.xaml.cs",
-              "RelativeToolTip": "Demo2\\Windows\\EditProductWindow.xaml.cs",
-              "ViewState": "AgIAADUAAAAAAAAAAAAQwE8AAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-12T07:13:44.037Z",
+              "WhenOpened": "2026-06-12T17:52:22.099Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AddProductWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\sciiphoz\\source\\repos\\Demo2\\Demo2\\Windows\\AddProductWindow.xaml.cs",
-              "RelativeDocumentMoniker": "Demo2\\Windows\\AddProductWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\sciiphoz\\source\\repos\\Demo2\\Demo2\\Windows\\AddProductWindow.xaml.cs",
-              "RelativeToolTip": "Demo2\\Windows\\AddProductWindow.xaml.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAABwAAABsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-12T07:13:22.698Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "AddProductWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\sciiphoz\\source\\repos\\Demo2\\Demo2\\Windows\\AddProductWindow.xaml",
-              "RelativeDocumentMoniker": "Demo2\\Windows\\AddProductWindow.xaml",
-              "ToolTip": "C:\\Users\\sciiphoz\\source\\repos\\Demo2\\Demo2\\Windows\\AddProductWindow.xaml",
-              "RelativeToolTip": "Demo2\\Windows\\AddProductWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-06-12T07:13:20.922Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "ProductPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\sciiphoz\\source\\repos\\Demo2\\Demo2\\Pages\\ProductPage.xaml.cs",
               "RelativeDocumentMoniker": "Demo2\\Pages\\ProductPage.xaml.cs",
               "ToolTip": "C:\\Users\\sciiphoz\\source\\repos\\Demo2\\Demo2\\Pages\\ProductPage.xaml.cs",
               "RelativeToolTip": "Demo2\\Pages\\ProductPage.xaml.cs",
-              "ViewState": "AgIAAIsAAAAAAAAAAAAUwI4AAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAACIAAAAAAAAAAAAAwDsAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-11T07:49:43.373Z"
+              "WhenOpened": "2026-06-12T17:49:55.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OrderPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\sciiphoz\\source\\repos\\Demo2\\Demo2\\Pages\\OrderPage.xaml.cs",
+              "RelativeDocumentMoniker": "Demo2\\Pages\\OrderPage.xaml.cs",
+              "ToolTip": "C:\\Users\\sciiphoz\\source\\repos\\Demo2\\Demo2\\Pages\\OrderPage.xaml.cs",
+              "RelativeToolTip": "Demo2\\Pages\\OrderPage.xaml.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAAwDYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-12T17:47:03.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "OrderPage.xaml",
+              "DocumentMoniker": "C:\\Users\\sciiphoz\\source\\repos\\Demo2\\Demo2\\Pages\\OrderPage.xaml",
+              "RelativeDocumentMoniker": "Demo2\\Pages\\OrderPage.xaml",
+              "ToolTip": "C:\\Users\\sciiphoz\\source\\repos\\Demo2\\Demo2\\Pages\\OrderPage.xaml",
+              "RelativeToolTip": "Demo2\\Pages\\OrderPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-06-12T17:47:01.729Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "ProductPage.xaml",
-              "DocumentMoniker": "C:\\Users\\sciiphoz\\source\\repos\\Demo2\\Demo2\\Pages\\ProductPage.xaml",
-              "RelativeDocumentMoniker": "Demo2\\Pages\\ProductPage.xaml",
-              "ToolTip": "C:\\Users\\sciiphoz\\source\\repos\\Demo2\\Demo2\\Pages\\ProductPage.xaml",
-              "RelativeToolTip": "Demo2\\Pages\\ProductPage.xaml",
+              "Title": "DiscountedPrice.cs",
+              "DocumentMoniker": "C:\\Users\\sciiphoz\\source\\repos\\Demo2\\Demo2\\DataBaseContext\\DiscountedPrice.cs",
+              "RelativeDocumentMoniker": "Demo2\\DataBaseContext\\DiscountedPrice.cs",
+              "ToolTip": "C:\\Users\\sciiphoz\\source\\repos\\Demo2\\Demo2\\DataBaseContext\\DiscountedPrice.cs",
+              "RelativeToolTip": "Demo2\\DataBaseContext\\DiscountedPrice.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAowAsAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-12T17:12:08.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "InfoWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\sciiphoz\\source\\repos\\Demo2\\Demo2\\Windows\\InfoWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Demo2\\Windows\\InfoWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\sciiphoz\\source\\repos\\Demo2\\Demo2\\Windows\\InfoWindow.xaml.cs",
+              "RelativeToolTip": "Demo2\\Windows\\InfoWindow.xaml.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAjwDgAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-12T17:11:17.253Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\sciiphoz\\source\\repos\\Demo2\\Demo2\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Demo2\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\sciiphoz\\source\\repos\\Demo2\\Demo2\\MainWindow.xaml",
+              "RelativeToolTip": "Demo2\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-06-11T07:11:55.25Z"
+              "WhenOpened": "2026-06-12T17:07:42.314Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\sciiphoz\\source\\repos\\Demo2\\Demo2\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Demo2\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\sciiphoz\\source\\repos\\Demo2\\Demo2\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Demo2\\MainWindow.xaml.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAASwCgAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-12T17:07:40.881Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AuthPage.xaml",
+              "DocumentMoniker": "C:\\Users\\sciiphoz\\source\\repos\\Demo2\\Demo2\\Pages\\AuthPage.xaml",
+              "RelativeDocumentMoniker": "Demo2\\Pages\\AuthPage.xaml",
+              "ToolTip": "C:\\Users\\sciiphoz\\source\\repos\\Demo2\\Demo2\\Pages\\AuthPage.xaml",
+              "RelativeToolTip": "Demo2\\Pages\\AuthPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-06-12T17:07:31.147Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AuthPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\sciiphoz\\source\\repos\\Demo2\\Demo2\\Pages\\AuthPage.xaml.cs",
+              "RelativeDocumentMoniker": "Demo2\\Pages\\AuthPage.xaml.cs",
+              "ToolTip": "C:\\Users\\sciiphoz\\source\\repos\\Demo2\\Demo2\\Pages\\AuthPage.xaml.cs",
+              "RelativeToolTip": "Demo2\\Pages\\AuthPage.xaml.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-12T16:38:23.889Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Order_Products.cs",
+              "DocumentMoniker": "C:\\Users\\sciiphoz\\source\\repos\\Demo2\\Demo2\\DataBaseContext\\Order_Products.cs",
+              "RelativeDocumentMoniker": "Demo2\\DataBaseContext\\Order_Products.cs",
+              "ToolTip": "C:\\Users\\sciiphoz\\source\\repos\\Demo2\\Demo2\\DataBaseContext\\Order_Products.cs",
+              "RelativeToolTip": "Demo2\\DataBaseContext\\Order_Products.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-12T14:28:39.14Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Windows\\EditOrderWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\sciiphoz\\source\\repos\\Demo2\\Demo2\\Windows\\EditOrderWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Demo2\\Windows\\EditOrderWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\sciiphoz\\source\\repos\\Demo2\\Demo2\\Windows\\EditOrderWindow.xaml.cs",
+              "RelativeToolTip": "Demo2\\Windows\\EditOrderWindow.xaml.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAwwDkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-12T14:25:13.747Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "EditOrderWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\sciiphoz\\source\\repos\\Demo2\\Demo2\\Windows\\EditOrderWindow.xaml",
+              "RelativeDocumentMoniker": "Demo2\\Windows\\EditOrderWindow.xaml",
+              "ToolTip": "C:\\Users\\sciiphoz\\source\\repos\\Demo2\\Demo2\\Windows\\EditOrderWindow.xaml",
+              "RelativeToolTip": "Demo2\\Windows\\EditOrderWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-06-12T13:01:02.347Z",
+              "EditorCaption": ""
             }
           ]
         }

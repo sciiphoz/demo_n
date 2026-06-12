@@ -51,6 +51,14 @@ namespace Demo2.Pages
 
             FilterCB.SelectedIndex = 0;
             SortCB.SelectedIndex = 0;
+
+            if (CurrentUser.currentUser.ID_Role == 2)
+            {
+                AddButton.Visibility = Visibility.Collapsed;
+                DeleteButton.Visibility = Visibility.Collapsed;
+
+                MainListView.MouseDoubleClick -= MainListView_MouseDoubleClick;
+            }
         }
 
         private void MainListView_MouseDoubleClick(object sender, MouseButtonEventArgs e)
@@ -143,7 +151,10 @@ namespace Demo2.Pages
 
         private void RefreshData()
         {
-            MainListView.ItemsSource = DataBaseConnection.demoEntities.Order.Include("Address").Include("Status").Include("User").ToList();
+            MainListView.ItemsSource = DataBaseConnection.demoEntities.Order
+                .Include("Address")
+                .Include("Status")
+                .Include("User").ToList();
         }
     }
 }
