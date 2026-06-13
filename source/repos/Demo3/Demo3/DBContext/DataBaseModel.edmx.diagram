@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="3cb3d05beaff4d56a8fde35b99dab561" Name="Diagram1">
+        <EntityTypeShape EntityType="DemoModel.Address" Width="1.5" PointX="0.75" PointY="13.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DemoModel.Category" Width="1.5" PointX="0.75" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DemoModel.City" Width="1.5" PointX="1.5" PointY="19.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DemoModel.Manufacturer" Width="1.5" PointX="0.75" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DemoModel.Measurement" Width="1.5" PointX="0.75" PointY="7.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DemoModel.Order" Width="1.5" PointX="3" PointY="15.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DemoModel.Order_Products" Width="1.5" PointX="5.25" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DemoModel.Product" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="DemoModel.Role" Width="1.5" PointX="1.5" PointY="25.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DemoModel.Status" Width="1.5" PointX="0.75" PointY="16.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DemoModel.Supplier" Width="1.5" PointX="0.75" PointY="10.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DemoModel.sysdiagrams" Width="1.5" PointX="5.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DemoModel.User" Width="1.5" PointX="0.75" PointY="22.5" IsExpanded="true" />
+        <AssociationConnector Association="DemoModel.FK_Address_City" ManuallyRouted="false" />
+        <AssociationConnector Association="DemoModel.FK_Order_Address" ManuallyRouted="false" />
+        <AssociationConnector Association="DemoModel.FK_Product_Category" ManuallyRouted="false" />
+        <AssociationConnector Association="DemoModel.FK_Product_Manufacturer" ManuallyRouted="false" />
+        <AssociationConnector Association="DemoModel.FK_Product_Measurement" ManuallyRouted="false" />
+        <AssociationConnector Association="DemoModel.FK_Order_Products_Order" ManuallyRouted="false" />
+        <AssociationConnector Association="DemoModel.FK_Order_Status" ManuallyRouted="false" />
+        <AssociationConnector Association="DemoModel.FK_Order_User" ManuallyRouted="false" />
+        <AssociationConnector Association="DemoModel.FK_Order_Products_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="DemoModel.FK_Product_Supplier" ManuallyRouted="false" />
+        <AssociationConnector Association="DemoModel.FK_User_Role" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

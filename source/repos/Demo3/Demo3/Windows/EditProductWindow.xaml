@@ -1,0 +1,77 @@
+﻿<Window x:Class="Demo3.Windows.EditProductWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Demo3.Windows"
+        mc:Ignorable="d"
+        Title="EditProductWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <StackPanel Grid.RowSpan="2" Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Image x:Name="ProductImage" Height="80"></Image>
+            <Button x:Name="ImageButton" Click="ImageButton_Click">Выбрать изображение</Button>
+        </StackPanel>
+
+        <StackPanel Grid.Row="2" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center" Orientation="Vertical">
+            <Label>Название</Label>
+            <TextBox x:Name="NameTB"></TextBox>
+        </StackPanel>
+        <StackPanel Grid.Row="3" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center" Orientation="Vertical">
+            <Label>Описание</Label>
+            <TextBox x:Name="DescTB"></TextBox>
+        </StackPanel>
+        <StackPanel Grid.Row="4" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center" Orientation="Vertical">
+            <Label>Цена</Label>
+            <TextBox x:Name="PriceTB"></TextBox>
+        </StackPanel>
+        <StackPanel Grid.Row="5" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center" Orientation="Vertical">
+            <Label>Скидка</Label>
+            <TextBox x:Name="DiscountTB"></TextBox>
+        </StackPanel>
+
+        <StackPanel Grid.Row="0" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center" Orientation="Vertical">
+            <Label>ID</Label>
+            <TextBlock x:Name="IDTB"></TextBlock>
+        </StackPanel>
+        <StackPanel Grid.Row="1" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center" Orientation="Vertical">
+            <Label>Количество</Label>
+            <TextBox x:Name="QuantityTB"></TextBox>
+        </StackPanel>
+        <StackPanel Grid.Row="2" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center" Orientation="Vertical">
+            <Label>Единица измерения</Label>
+            <ComboBox x:Name="MeasurementCB"></ComboBox>
+        </StackPanel>
+        <StackPanel Grid.Row="3" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center" Orientation="Vertical">
+            <Label>Поставщик</Label>
+            <ComboBox x:Name="SupplierCB"></ComboBox>
+        </StackPanel>
+        <StackPanel Grid.Row="4" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center" Orientation="Vertical">
+            <Label>Производитель</Label>
+            <ComboBox x:Name="ManufacturerCB"></ComboBox>
+        </StackPanel>
+        <StackPanel Grid.Row="5" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center" Orientation="Vertical">
+            <Label>Категория</Label>
+            <ComboBox x:Name="CategoryCB"></ComboBox>
+        </StackPanel>
+
+        <StackPanel Grid.Row="6" Grid.ColumnSpan="2" HorizontalAlignment="Center" VerticalAlignment="Center" Orientation="Horizontal">
+            <Button x:Name="SubmitButton" Click="SubmitButton_Click" Margin="10">Изменить</Button>
+            <Button x:Name="CancelButton" Click="CancelButton_Click" Margin="10">Отменить</Button>
+        </StackPanel>
+    </Grid>
+</Window>

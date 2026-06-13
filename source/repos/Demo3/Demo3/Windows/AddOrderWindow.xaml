@@ -1,0 +1,45 @@
+﻿<Window x:Class="Demo3.Windows.AddOrderWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Demo3.Windows"
+        mc:Ignorable="d"
+        Title="AddOrderWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Center" Orientation="Vertical">
+            <Label>Артикул</Label>
+            <ComboBox x:Name="ArticleCB"></ComboBox>
+        </StackPanel>
+        <StackPanel Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center" Orientation="Vertical">
+            <Label>Статус</Label>
+            <ComboBox x:Name="StatusCB"></ComboBox>
+        </StackPanel>
+        <StackPanel Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center" Orientation="Vertical">
+            <Label>Адрес</Label>
+            <ComboBox x:Name="AddressCB"></ComboBox>
+        </StackPanel>
+        <StackPanel Grid.Row="3" HorizontalAlignment="Center" VerticalAlignment="Center" Orientation="Vertical">
+            <Label>Дата заказа</Label>
+            <DatePicker x:Name="OrderDateDP"></DatePicker>
+        </StackPanel>
+        <StackPanel Grid.Row="4" HorizontalAlignment="Center" VerticalAlignment="Center" Orientation="Vertical">
+            <Label>Дата выдачи</Label>
+            <DatePicker x:Name="ShipmentDateDP"></DatePicker>
+        </StackPanel>
+
+        <StackPanel Grid.Row="5" Grid.ColumnSpan="2" HorizontalAlignment="Center" VerticalAlignment="Center" Orientation="Horizontal">
+            <Button x:Name="SubmitButton" Click="SubmitButton_Click" Margin="10">Изменить</Button>
+            <Button x:Name="CancelButton" Click="CancelButton_Click" Margin="10">Отменить</Button>
+        </StackPanel>
+    </Grid>
+</Window>
